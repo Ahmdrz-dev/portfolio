@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "work": "Çalışmalar",
+    "about": "Hakkımda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Yapay Zeka Ürünleri, Dijital Deneyimler ve Ölçeklenebilir Web Uygulamaları Geliştiriyorum",
+    "subtitle": "Kullanılabilirlik, performans ve uzun vadeli değere odaklanarak modern yazılım ürünleri tasarlıyor ve geliştiriyorum. İstanbul, Türkiye merkezliyim.",
+    "cta": "Projeleri İncele",
+    "scroll": "Aşağı Kaydır"
+  },
+  "about": {
+    "tag": "Perspektif",
+    "title": "Tasarım odaklı düşünmeyi, sağlam mimari yazılım mühendisliği ile bütünleştiriyorum.",
+    "p1": "Yaklaşımım, yazılımın fiziksel mimari kadar bilinçli ve amaca yönelik olması gerektiği inancına dayanıyor. Tıpkı yapısal bir kiriş gibi, her kod satırı bir amaca hizmet etmeli ve genel vizyonu desteklemelidir.",
+    "p2": "Yazılım mimarisi, web geliştirme ve etkili kullanıcı deneyimleri oluşturmaya odaklanarak fikirleri işlevsel dijital ürünlere dönüştürme konusunda uzmanım. Her projede önceliğim, hem teknik açıdan kusursuz olan hem de kullanıcıların gerçek ihtiyaçlarını en iyi şekilde karşılayan çözümler üretmektir.",
+    "p3": "Kullanıcılara daha akıllı, daha hızlı ve daha verimli bir deneyim sunan yapay zeka yetenekleriyle donatılmış web ürünleri tasarlıyor ve geliştiriyorum."
+  },
+  "work": {
+    "tag": "Seçilmiş Çalışmalar",
+    "title": "Örnek Projeler",
+    "period": "2024 — 2026",
+    "milowra": {
+      "title": "Milowra: Etkinlik Platformu",
+      "desc": "Sanatsal ve kültürel deneyimlere odaklanan yaratıcı bir etkinlik markası olan Milowra için modern, çok dilli bir web sitesi tasarladım ve geliştirdim. Site sahibine web sitesi içeriği, etkinlik yönetimi ve günlük operasyonlar üzerinde tam kontrol sağlayan güçlü bir yönetim paneli entegre ettim."
+    },
+    "forex": {
+      "title": "Forex Formasyon Otomasyonu",
+      "desc": "Forex ticaret stratejilerini tam otomatik ticaret botlarına dönüştürerek, yatırımcıların duygusal karar verme süreçlerini ortadan kaldırmalarına ve işlemleri tutarlı bir şekilde gerçekleştirmelerine yardımcı oluyorum."
+    },
+    "server": {
+      "title": "Ölçeklenebilir Backend Sistemleri ve Akıllı Uygulamalar",
+      "desc": "Doğal dil arayüzlerini; zamanlama, takvim senkronizasyonu ve otomatik görev yönetimi gibi backend iş akışlarına bağlayan akıllı etkileşim sistemleri inşa ediyorum.",
+      "overlay": "Sistem Mimarileri"
+    },
+    "ongoing": "Devam Ediyor"
+  },
+  "philosophy": {
+    "title": "Mimari\nYaklaşım",
+    "body": "Zamana meydan okuyan ürünler inşa etmek için estetik hassasiyeti teknik sağlamlıkla birleştiriyoruz. Her dijital yapı, fiziksel mimaride uygulanan aynı titizlikle tasarlanmaktadır.",
+    "disc": [
+      {
+        "title": "UI/UX Tasarımı",
+        "desc": "Kullanıcıları dijital yolculuklarında zahmetsizce yönlendiren sezgisel arayüzler üretiyoruz."
+      },
+      {
+        "title": "Önce Mobil (Mobile First)",
+        "desc": "Her cihazda ve ekran boyutunda yerel (native) hissettiren duyarlı deneyimler."
+      },
+      {
+        "title": "Web Geliştirme",
+        "desc": "Hızlı, esnek ve zarif web platformlarına güç veren full-stack mühendislik."
+      },
+      {
+        "title": "Yapay Zeka Entegrasyonu",
+        "desc": "Akıllı sistemleri ürünlere netlik ve bilinçli bir amaçla entegre ediyoruz."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Temel Yetkinlikler",
+    "desc": "Sağlam dijital çözümler üretmek için kullandığım, özenle seçilmiş araç ve teknoloji yığını.",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Araçlar"
+  },
+  "footer": {
+    "title": "Birlikte Anlamlı Bir Şeyler İnşa Edelim.",
+    "desc": "Şu anda seçilmiş freelance fırsatları ve mimari yazılım ürünleri üzerindeki işbirliklerini kabul ediyorum.",
+    "copyright": "© 2024 Ahmadreza Saeedi. Mimari Yaklaşım.",
+    "built": "Amaç ve Hassasiyetle Geliştirildi"
+  },
+  "role": "Yazılım Geliştirici",
+  "language": {
+    "label": "Dil",
+    "en": "English",
+    "tr": "Türkçe",
+    "fa": "فارسی"
+  },
+  "contact": {
+    "tag": "İletişim",
+    "fastlane_desc": "Bunun yerine hızlı bir sohbet mi arıyorsunuz?",
+    "whatsapp": "WhatsApp'tan Mesaj Gönder",
+    "nameLabel": "İsim",
+    "emailLabel": "E-posta",
+    "projectLabel": "Proje Detayları",
+    "projectPlaceholder": "Ne inşa ettiğimizden bahsedin...",
+    "submitBtn": "Talep Gönder",
+    "statusSubmitting": "Gönderiliyor...",
+    "statusSuccess": "Mesaj Gönderildi",
+    "statusError": "Hata - Tekrar Deneyin"
+  }
+}

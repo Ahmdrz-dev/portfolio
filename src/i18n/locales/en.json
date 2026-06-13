@@ -1,0 +1,66 @@
+{
+  "nav": { "work": "Work", "about": "About", "contact": "Contact" },
+  "hero": {
+    "title": "Building AI Products, Digital Experiences & Scalable Web Applications",
+    "subtitle": "I design and build modern software products with a focus on usability, performance, and long-term value. Based in Istanbul, Türkiye.",
+    "cta": "View Projects",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "tag": "Perspective",
+    "title": "Integrating design thinking with robust architectural software engineering.",
+    "p1": "My approach is rooted in the belief that software should be as intentional as physical architecture. Every line of code, like every structural beam, must serve a purpose and support the overall vision.",
+    "p2": "I specialize in turning ideas into functional digital products, focusing on software architecture, web development, and creating effective user experiences. In each project, the priority is to build solutions that are both technically sound and best meet the real needs of users.",
+    "p3": "Design and develop web products equipped with artificial intelligence capabilities that provide a smarter, faster, and more efficient experience for users."
+  },
+  "work": {
+    "tag": "Selected Works",
+    "title": "Case Studies",
+    "period": "2024 — 2026",
+    "milowra": { "title": "Milowra: Event Platform", "desc": "Designed and developed a modern multi-language website for Milowra, a creative event brand focused on artistic and cultural experiences. Integrated a powerful admin panel, giving the owner full control over website content, event management, and day-to-day operations." },
+    "forex": { "title": "Forex Pattern Automation", "desc": "Transforming forex trading strategies into fully automated trading bots, helping traders eliminate emotional decision-making and execute trades with consistency." },
+    "server": { "title": "Scalable Backend Systems & Intelligent Applications", "desc": "Building intelligent interaction systems that connect natural language interfaces with backend workflows such as scheduling, calendar synchronization, and automated task management.", "overlay": "System Architectures" },
+    "ongoing": "Ongoing"
+  },
+  "philosophy": {
+    "title": "Architectural\nIntent",
+    "body": "We combine aesthetic precision with technical robustness to build products that stand the test of time. Every digital structure is designed with the same rigor as physical architecture.",
+    "disc": [
+      { "title": "UI/UX Design", "desc": "Crafting intuitive interfaces that guide users effortlessly through digital journeys." },
+      { "title": "Mobile First", "desc": "Responsive experiences that feel native on every device and screen size." },
+      { "title": "Web Development", "desc": "Full-stack engineering that powers fast, resilient, and elegant web platforms." },
+      { "title": "AI Integration", "desc": "Embedding intelligent systems into products with clarity and intention." }
+    ]
+  },
+  "skills": {
+    "title": "Core Competencies",
+    "desc": "A curated stack of tools and technologies I use to build robust digital solutions.",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Tools"
+  },
+  "footer": {
+    "title": "Let's Build Something Meaningful.",
+    "desc": "Currently accepting select freelance opportunities and collaboration on architectural software products.",
+    "copyright": "© 2024 Ahmadreza Saeedi. Architectural Intent.",
+    "built": "Built with Intention & Precision"
+  },
+  "role": "Software Developer",
+  "language": { "label": "Language", "en": "English", "tr": "Türkçe", "fa": "فارسی"
+ },
+ "contact": {
+    "tag": "Contact",
+    "fastlane_desc": "Looking for a quick chat instead?",
+    "whatsapp": "Message on WhatsApp",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "projectLabel": "Project Details",
+    "projectPlaceholder": "Tell me about what we are building...",
+    "submitBtn": "Send Inquiry",
+    "statusSubmitting": "Sending...",
+    "statusSuccess": "Message Sent",
+    "statusError": "Error - Try Again"
+  }
+
+
+}
