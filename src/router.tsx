@@ -3,16 +3,18 @@ import { createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 import "./i18n/config";
 
-export const getRouter = () => {
-  const queryClient = new QueryClient();
+export const queryClient = new QueryClient();
 
-  const router = createRouter({
-    routeTree,
-    context: { queryClient },
-    scrollRestoration: true,
-    defaultPreloadStaleTime: 0,
-    basepath: '/AhmadrezaPortfolio/',
-  });
+export const router = createRouter({
+  routeTree,
+  context: { queryClient },
+  scrollRestoration: true,
+  defaultPreloadStaleTime: 0,
+  basepath: '/portfolio/',
+});
 
-  return router;
-};
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router
+  }
+}

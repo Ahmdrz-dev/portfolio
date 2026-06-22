@@ -21,6 +21,11 @@
     "tag": "Seçilmiş Çalışmalar",
     "title": "Örnek Projeler",
     "period": "2024 — 2026",
+    "details": "Detayları Gör",
+    "Lumora": {
+      "title": "Lumora — Çok Dilli Sanat Pazaryeri",
+      "desc": "Sanatçıları ve koleksiyonerleri üç farklı dilde bir araya getiren, teklif sistemi, dahili mesajlaşma ve otomatik çeviri iş akışına sahip, Django tabanlı tam kapsamlı bir pazaryeri platformu."
+    },
     "milowra": {
       "title": "Milowra: Etkinlik Platformu",
       "desc": "Sanatsal ve kültürel deneyimlere odaklanan yaratıcı bir etkinlik markası olan Milowra için modern, çok dilli bir web sitesi tasarladım ve geliştirdim. Site sahibine web sitesi içeriği, etkinlik yönetimi ve günlük operasyonlar üzerinde tam kontrol sağlayan güçlü bir yönetim paneli entegre ettim."
@@ -34,7 +39,8 @@
       "desc": "Doğal dil arayüzlerini; zamanlama, takvim senkronizasyonu ve otomatik görev yönetimi gibi backend iş akışlarına bağlayan akıllı etkileşim sistemleri inşa ediyorum.",
       "overlay": "Sistem Mimarileri"
     },
-    "ongoing": "Devam Ediyor"
+    "ongoing": "Devam Ediyor",
+    "visit_website": "Web Sitesini Ziyaret Et"
   },
   "philosophy": {
     "title": "Mimari\nYaklaşım",
@@ -90,5 +96,152 @@
     "statusSubmitting": "Gönderiliyor...",
     "statusSuccess": "Mesaj Gönderildi",
     "statusError": "Hata - Tekrar Deneyin"
+  },
+  "cases": {
+    "milowra": {
+      "title": "Milowra",
+      "tagline": "Çok Dilli Etkinlik Yönetimi ve Keşif Platformu",
+      "summary": "Bir etkinlik şirketi için React önyüzü (frontend), Django arkayüzü (backend) ve otomatik çeviri iş akışlarına sahip, güzel ve duyarlı (responsive) üç dilli bir platform.",
+      "type": "Full-Stack Web Uygulaması",
+      "role": "Kıdemli Full-Stack Mühendisi — frontend mimarisi, backend API'si, veritabanı modelleme ve UI/UX uygulaması.",
+      "problem": "Etkinlik şirketinin, idari iş yüklerini katlamadan çok dilli, çeşitli bir kitleye ulaşmanın bir yoluna ihtiyacı vardı. Manuel çeviri ve parçalanmış iletişim kanalları, etkinlik güncellemelerini ve müşteri sorularını yavaşlatıyordu.",
+      "overview": "Milowra, katılımcıları deneyimlerle sorunsuz bir şekilde buluşturmak için oluşturulmuş üç dilli bir etkinlik keşif platformudur. Güzel ve duyarlı bir React önyüzünü sağlam bir Django arkayüzü ile birleştirerek, otomatik içerik çevirisi, hızlı iletişim için doğrudan WhatsApp entegrasyonları ve zahmetsiz veri manipülasyonu için son derece özelleştirilmiş bir yönetici paneli (admin dashboard) sunar.",
+      "features": [
+        { "title": "Üç Dilli Otomasyon", "desc": "Kullanıcı tarafından eklenen tüm etkinlik öğeleri için otomatik bir çeviri hattı ile üç dil için yerleşik destek." },
+        { "title": "WhatsApp Entegrasyonu", "desc": "Kullanıcıları soruları için WhatsApp üzerinden doğrudan etkinlik organizatörlerine bağlayan iletişim bağlantıları." },
+        { "title": "Özelleştirilmiş Yönetici Paneli", "desc": "Kolay veri manipülasyonu ve zahmetsiz etkinlik yönetimi için tasarlanmış özelleştirilmiş bir Django admin arayüzü." },
+        { "title": "Duyarlı UI/UX", "desc": "Tüm cihazlarda ve ekran boyutlarında kusursuz bir gezinme deneyimi sağlayan güzel hazırlanmış bir frontend." }
+      ],
+      "highlights": [
+        { "title": "React & Django Mimarisi", "desc": "Dinamik bir frontend için React ve sağlam API teslimatı için Django REST Framework kullanan ayrıştırılmış (decoupled) bir mimari." },
+        { "title": "PostgreSQL Veritabanı Tasarımı", "desc": "Çok dilli etkinlik verilerinin verimli bir şekilde sorgulanması için tasarlanmış iyi yapılandırılmış ilişkisel bir şema." },
+        { "title": "Otomatik İçerik Hattı", "desc": "Admin paneli üzerinden eklenen öğeler otomatik olarak çevrilir ve üç dil sürümü de mükemmel bir senkronizasyon içinde tutulur." }
+      ],
+      "challenges": [
+        { "title": "Dinamik çok dilli metinlerin güvenli bir şekilde yönetilmesi", "solution": "Arayüzün daha uzun veya daha kısa dillere çevrildiğinde bozulmamasını sağlamak için React'te kesin karakter sınırları ve responsive tasarım yedekleri (fallbacks) uygulandı." },
+        { "title": "Admin iş akışının kolaylaştırılması", "solution": "Gereksiz karmaşıklığı gizlemek için Django admin sınıfları özelleştirildi ve etkinlik yöneticilerine temiz, sezgisel bir veri giriş arayüzü sağlandı." }
+      ],
+      "outcome": "Etkinlik şirketinin tekliflerini zahmetsizce yönetmesine ve uluslararası müşterilere anında kendi tercih ettikleri dilde ulaşmasına olanak tanıyan, yüksek performanslı, görsel olarak çarpıcı bir platform.",
+      "lessons": "Çeviri sürecini veritabanı girişi seviyesinde otomatikleştirmek, sayısız saatlik idari işten tasarruf sağlar ve frontend'de eksik çeviri riskini ortadan kaldırır."
+    },
+    "ArtGallery": {
+      "title": "ArtGallery",
+      "tagline": "Sanatçılar ve Koleksiyonerler için Çok Dilli Pazar Yeri Platformu",
+      "summary": "Sanatçıların orijinal eserlerini yayınladığı, koleksiyonerlerin keşfedip pazarlık yaptığı ve çok dilli bir içerik hattının küresel bir kitleye ulaştığı, full-stack bir Django pazar yeri.",
+      "type": "Full-Stack Django Pazar Yeri",
+      "role": "Kıdemli Full-Stack Mühendisi — mimari, backend, veritabanı, frontend entegrasyonu ve i18n (uluslararasılaştırma) hattı.",
+      "problem": "Bağımsız sanatçılar, uluslararası koleksiyonerlere ulaşacak kanallara — veya dillere — nadiren sahiptir. ArtGallery, listeleme, müzakere, kimlik ve çeviriyi birbirine bağlı tek bir iş akışı olarak ele alan bir platformla bu sürtünmeyi ortadan kaldırmak için inşa edilmiştir.",
+      "overview": "ArtGallery, sanatçıları ve alıcıları üç dilde birbirine bağlayan full-stack bir pazar yeridir. Django destekli bir pazar yerini çok rollü bir kimlik sistemi, bir teklif & mesajlaşma motoru ve her sanat eserini küresel bir kitleye hazırlayan otomatik bir çeviri iş akışıyla eşleştirir.",
+      "features": [
+        { "title": "Çok Rollü Kullanıcı Sistemi", "desc": "Sanatçı ve alıcı hesapları tek bir kimlik katmanını paylaşır ancak rollere dayalı farklı paneller, yetenekler ve izinler alırlar." },
+        { "title": "Satıcı Paneli", "desc": "Sanatçı için sanat eseri yönetimi, listeleme kontrolleri, profil sunumu ve pazar yeri faaliyetlerinin canlı bir görünümü." },
+        { "title": "Alıcı Deneyimi", "desc": "Kaydedilen sanat eserleri, kişisel profil, teklif takibi ve katalogla olan her etkileşimin birleşik bir geçmişi." },
+        { "title": "Mesajlaşma ve İletişim", "desc": "Dahili mesajlaşma, yapılandırılmış teklif iş akışı ve gürültü etrafında değil, gerçek müzakere etrafında oluşturulmuş bir alıcı-satıcı gelen kutusu." },
+        { "title": "Pazar Yeri Altyapısı", "desc": "Sanat eseri listelemeleri, keşif alanları, sanatçı profilleri ve teklif yönetimi tek bir gezinilebilir kataloğa dokunmuştur." },
+        { "title": "Uluslararasılaştırma (i18n)", "desc": "İlk günden küresel bir koleksiyoner kitlesi için tasarlanmış, dinamik dil değiştirme özellikli üç dil desteği." },
+        { "title": "Otomatik Çeviri İş Akışı", "desc": "Sanat eseri içeriği otomatik olarak birden fazla dil için hazırlanır ve çeviri otomasyonu doğrudan içerik hattına bağlanır." },
+        { "title": "Kullanıcı Doğrulama", "desc": "Pazar yerini güvenilir tutmak için telefon doğrulaması, adres yönetimi ve güçlendirilmiş bir hesap oluşturma akışı." }
+      ],
+      "highlights": [
+        { "title": "Django Mimarisi", "desc": "Kimlik, pazar yeri, mesajlaşma ve i18n kavramlarını birbirinden ayıran modüler uygulama yapısı." },
+        { "title": "PostgreSQL Veritabanı Tasarımı", "desc": "Sanat eserleri, teklifler, konuşmalar ve doğrulanmış profiller için normalleştirilmiş şema." },
+        { "title": "Çok Rollü Kimlik Doğrulama", "desc": "İzole edilmiş izin setleriyle iki rol izine (sanatçı / alıcı) sahip tek yetkilendirme yüzeyi." },
+        { "title": "Pazar Yeri İş Akışları", "desc": "Listeleme → keşif → teklif → müzakere → çözüm adımlarının uçtan uca modellenmesi." },
+        { "title": "Uluslararasılaştırma Mimarisi", "desc": "Platform genelinde yerel ayar (locale) yönlendirmesi, içerik yedekleri ve dil farkındalıklı şablonlar." },
+        { "title": "Otomatik Çeviri İş Akışı", "desc": "Yeni listelemelerin varsayılan olarak çok dilli sunulması için içerik yönetimine entegre edilmiş çeviri otomasyonu." },
+        { "title": "İzin Yönetimi", "desc": "Her kullanıcının yalnızca görmesi gerekeni görmesini sağlayan rol farkındalıklı dekoratörler (decorators) ve sorgu setleri (querysets)." },
+        { "title": "Panel Mimarisi", "desc": "Paylaşılan bir tasarım dili ve bileşen sistemi üzerine inşa edilmiş iki farklı panel (satıcı / alıcı)." }
+      ],
+      "challenges": [
+        { "title": "Platformu çatallamadan (forking) iki kullanıcı türünü modellemek", "solution": "Rol uzantılarına sahip paylaşılan bir profil çekirdeği ve ayrıca sanatçı ile alıcı yüzeylerini temiz bir şekilde ayrı tutan izne duyarlı sorgu setleri." },
+        { "title": "İçerik değiştikçe üç dili senkronize tutmak", "solution": "Sanat eserinin yaşam döngüsüne bağlı otomatik bir çeviri hattı, böylece yeni içerik manuel müdahale olmadan çevrilir ve dizine eklenir." },
+        { "title": "Müzakereyi yapılandırılmış bir ürüne dönüştürmek", "solution": "Alıcı-satıcı iletişiminin her adımını bir sohbet eklentisi olarak değil, birinci sınıf veriler olarak kaydeden bir teklif + mesajlaşma motoru." }
+      ],
+      "outcome": "ArtGallery sıradan bir galeriden ziyade tutarlı bir pazar platformu olarak yayınlanmaktadır: sanatçılar platforma katılır, listeler, müzakere eder ve satış yapar; koleksiyonerler ise kendi dillerinde gezinir ve etkileşimde bulunur. Sonuç, gelişmiş full-stack yeteneğini gösteren üretim sınıfı (production-grade) bir Django ürünüdür.",
+      "lessons": "İlk günden itibaren iki kullanıcı tipi için tasarım yapmak, her katmanda — şema, izinler, paneller ve UI — netliği zorunlu kılar. Çeviriyi (bir özellikten ziyade) bir altyapı olarak ele almak, ürün büyüdükçe platformu gerçekten küresel tutar."
+    },
+    "forex": {
+      "title": "Forex Pattern Finder",
+      "tagline": "Harmonik Formasyonlar için Algoritmik Piyasa Analizi",
+      "summary": "Harmonik formasyonları ve fiyat hareketi (price action) kurulumlarını tespit etmek için piyasa verilerini tarayan, nicel (quantitative) bir titizlikle ticaret fikirlerini ortaya çıkaran bir Python aracı.",
+      "type": "Nicel Analiz Aracı",
+      "role": "Mühendis — algoritma tasarımı, veri hattı ve analitik arayüz.",
+      "problem": "Forex grafiklerinde manuel formasyon tanıma yavaş, öznel ve önyargıya açıktır. Yatırımcıların aynı anda birçok enstrümanda yapısal olarak geçerli kurulumları yüzeye çıkaran tarafsız bir tarayıcıya ihtiyacı vardır.",
+      "overview": "Forex Pattern Finder, geçmiş ve canlı piyasa verilerini alır, üzerlerinde harmonik ve fiyat hareketi dedektörlerini çalıştırır ve her sinyalin arkasındaki geometri, oranlar ve bağlam ile birlikte derecelendirilmiş bir kurulum listesi sunar.",
+      "features": [
+        { "title": "Formasyon Tespiti", "desc": "Birden fazla zaman diliminde tanımlanan harmonik ve klasik fiyat hareketi formasyonları." },
+        { "title": "Nicel Puanlama", "desc": "Her aday kurulum oran kalitesine, yapısına ve bağlamına göre sıralanır." },
+        { "title": "Çoklu Zaman Dilimi Taraması", "desc": "Tutarlı geometri kuralları ile zaman dilimleri arasında eş zamanlı analiz." },
+        { "title": "Analist Paneli", "desc": "Tespit edilen kurulumları filtrelemek, incelemek ve dışa aktarmak için Django arayüzü." }
+      ],
+      "highlights": [
+        { "title": "Vektörel Tespit", "desc": "Yüksek verimli formasyon taramaları için Pandas + NumPy veri hatları." },
+        { "title": "Deterministik Geometri", "desc": "Kesin oran toleransları ile tekrarlanabilir, denetlenebilir sinyallerin garanti edilmesi." },
+        { "title": "Django Frontend", "desc": "Sonuçları incelemek ve dışa aktarmak için hafif, yönetici stili UI." }
+      ],
+      "challenges": [
+        { "title": "Piyasa gürültüsüne aşırı uyum (overfitting) sağlamadan geçerli formasyonların tespit edilmesi", "solution": "Puanlamadan önce kararsız adayları elemek için yapısal ön filtrelerle birleştirilmiş katı oran toleransları." },
+        { "title": "Büyük geçmiş veri kümelerinin verimli bir şekilde işlenmesi", "solution": "Çok sembollü, çok zaman dilimli işlemleri izlenebilir tutmak için vektörel Pandas işlemleri ve parçalı (chunked) taramalar." }
+      ],
+      "outcome": "Birçok enstrümanda yapısal olarak geçerli kurulumları güvenilir bir şekilde ortaya çıkaran ve saatlerce süren manuel grafik çalışmasını tek bir derecelendirilmiş taramayla değiştiren analitik bir araç.",
+      "lessons": "Nicel araçlar veri hijyeni sayesinde yaşar ya da ölür. Temiz veri hatlarına erkenden yatırım yapmak, aşağı akıştaki (downstream) her özellikte karşılığını verdi."
+    },
+    "server": {
+      "title": "Scalable Backend Infrastructure",
+      "tagline": "Yüksek Erişilebilirlikli (High-Availability) Mikro Hizmet Mimarisi",
+      "summary": "Docker orkestrasyonu ve dağıtık (distributed) veriye odaklanarak, kurumsal düzeydeki iş yükleri için esnek, dağıtık arka uç hizmetlerinin araştırılması ve uygulanması.",
+      "type": "Sistem Mimarisi",
+      "role": "Mimar / Mühendis — hizmet tasarımı, orkestrasyon ve veritabanı topolojisi.",
+      "problem": "Kurumsal uygulamaların yük altında erişilebilir kalan, güvenli bir şekilde konuşlandırılan ve yeniden yazılmadan yatay olarak ölçeklenebilen arka uçlara ihtiyacı vardır. Bunu başarmak, derme çatma kodlar değil, bilinçli bir mimari gerektirir.",
+      "overview": "Üretim odaklı kurumsal iş yüklerine uygun mikro hizmet ayrışmasını, konteyner orkestrasyonunu ve dağıtık veritabanı modellerini araştıran bir referans mimari ve uygulama yolu.",
+      "features": [
+        { "title": "Hizmet Ayrışması (Decomposition)", "desc": "Net sözleşmelere sahip etki alanına dayalı (Domain-driven) hizmet sınırları." },
+        { "title": "Konteyner Orkestrasyonu", "desc": "Tekrarlanabilir Docker tabanlı dağıtımlar ve ölçeklendirme." },
+        { "title": "Dağıtık Veri", "desc": "Replikasyon, önbelleğe alma (caching) ve nihai tutarlılık (eventual consistency) için modeller." },
+        { "title": "Esneklik (Resilience)", "desc": "Sisteme yerleşik sağlık kontrolleri, yeniden denemeler ve kademeli düşüş (graceful degradation)." }
+      ],
+      "highlights": [
+        { "title": "Docker Orkestrasyonu", "desc": "Ortamlar arasında birleştirilebilir, tekrarlanabilir hizmet dağıtımları." },
+        { "title": "Dağıtık Veritabanları", "desc": "Redis destekli önbelleğe alma katmanlarıyla PostgreSQL topolojileri." },
+        { "title": "Gözlemlenebilirlik (Observability)", "desc": "Üretim operasyonlarını desteklemek için yapılandırılmış günlük kaydı (logging) ve sağlık yüzeyleri." }
+      ],
+      "challenges": [
+        { "title": "Hizmetleri bağımsız olarak dağıtılabilir tutmak", "solution": "Hizmetler arasında kesin sözleşmeler ve sürümlendirilmiş API'ler." },
+        { "title": "Hizmetler arasında güçlü bir bağlılık (coupling) yaratmadan verileri koordine etmek", "solution": "Idempotent tüketicilerle olay güdümlü (Event-driven) senkronizasyon modelleri." }
+      ],
+      "outcome": "Esnek, ölçeklenebilir arka uçların birbirinden bağımsız olarak dağıtılabilir hizmetlerden nasıl oluşturulacağını gösteren devam eden bir referans uygulaması.",
+      "lessons": "Güvenilirlik mimari bir özelliktir, sonradan eklediğiniz bir katman değil. Ne kadar erken tasarlanırsa, maliyeti o kadar ucuz kalır."
+    }
+  },
+  "caseStudy": {
+    "backToPortfolio": "Portföye dön",
+    "returnToPortfolio": "Portföye dön",
+    "year": "Yıl",
+    "role": "Rol",
+    "techStack": "Teknoloji Yığını",
+    "showcase": "Vitrin",
+    "productInMotion": "Hareket halindeki ürün",
+    "cinematicPreview": "Sinematik bir önizleme",
+    "loadingPreview": "Önizleme yükleniyor",
+    "comingSoon": "Çok yakında",
+    "walkthroughPlaceholder": "Tam ürün incelemesi — kullanıcı katılımı, pazar yeri ve çok dilli deneyim.",
+    "preview": "Önizleme",
+    "overview": "Genel Bakış",
+    "overviewTitle": "Nedir. Neden var.",
+    "theProblem": "Problem",
+    "myRole": "Rolüm",
+    "keyFeatures": "Temel Özellikler",
+    "featuresTitle": "Ürünü oluşturan sistemler ve yüzeyler.",
+    "techHighlights": "Teknik Öne Çıkanlar",
+    "techTitle": "Platformun\nMühendisliği.",
+    "techDesc": "{{title}} projesini büyük ölçekte bir arada tutan mimari — veri modelinden dağıtıma kadar.",
+    "devChallenges": "Geliştirme Zorlukları",
+    "challengesTitle": "Yapı ile aşılan engeller.",
+    "solution": "Çözüm",
+    "results": "Sonuçlar",
+    "outcome": "Netice",
+    "lessonsLearned": "Öğrenilen dersler",
+    "prevProject": "Önceki proje",
+    "nextProject": "Sonraki proje"
   }
 }

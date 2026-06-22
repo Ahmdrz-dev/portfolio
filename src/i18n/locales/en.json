@@ -17,10 +17,13 @@
     "tag": "Selected Works",
     "title": "Case Studies",
     "period": "2024 — 2026",
+    "Lumora": { "title": "Lumora — Multilingual Art Marketplace ", "desc": "A full-stack Django marketplace connecting artists and collectors across three languages, with offers, messaging, and an automated translation workflow." },
     "milowra": { "title": "Milowra: Event Platform", "desc": "Designed and developed a modern multi-language website for Milowra, a creative event brand focused on artistic and cultural experiences. Integrated a powerful admin panel, giving the owner full control over website content, event management, and day-to-day operations." },
     "forex": { "title": "Forex Pattern Automation", "desc": "Transforming forex trading strategies into fully automated trading bots, helping traders eliminate emotional decision-making and execute trades with consistency." },
     "server": { "title": "Scalable Backend Systems & Intelligent Applications", "desc": "Building intelligent interaction systems that connect natural language interfaces with backend workflows such as scheduling, calendar synchronization, and automated task management.", "overlay": "System Architectures" },
-    "ongoing": "Ongoing"
+    "ongoing": "Ongoing",
+    "visit_website": "Visit Website",
+    "details": "Read case study"
   },
   "philosophy": {
     "title": "Architectural\nIntent",
@@ -60,6 +63,154 @@
     "statusSubmitting": "Sending...",
     "statusSuccess": "Message Sent",
     "statusError": "Error - Try Again"
+  },
+  "cases": {
+    "milowra": {
+      "title": "Milowra",
+      "tagline": "Multilingual Event Management & Discovery Platform",
+      "summary": "A beautifully responsive, tri-lingual platform for an event company, featuring a React frontend, Django backend, and automated translation workflows.",
+      "type": "Full-Stack Web Application",
+      "role": "Lead Full-Stack Engineer — frontend architecture, backend API, database modeling, and UI/UX implementation.",
+      "problem": "The event company needed a way to reach a diverse, multilingual audience without multiplying their administrative workload. Manual translation and fragmented communication channels were slowing down event updates and customer inquiries.",
+      "overview": "Milowra is a tri-lingual event discovery platform built to connect attendees with experiences seamlessly. Pairing a beautiful, responsive React frontend with a robust Django backend, it features automated content translation, direct WhatsApp integrations for fast communication, and a highly customized admin dashboard for effortless data manipulation.",
+      "features": [
+        { "title": "Tri-Lingual Automation", "desc": "Built-in support for three languages with an automated translation pipeline for all user-added event items." },
+        { "title": "WhatsApp Integration", "desc": "Direct communication links that connect users straight to event organizers via WhatsApp for seamless inquiries." },
+        { "title": "Tailored Admin Dashboard", "desc": "A customized Django admin interface designed for easy data manipulation and effortless event management." },
+        { "title": "Responsive UI/UX", "desc": "A beautifully crafted frontend that ensures a flawless browsing experience across all devices and screen sizes." }
+      ],
+      "highlights": [
+        { "title": "React & Django Architecture", "desc": "A decoupled architecture using React for a dynamic frontend and Django REST Framework for robust API delivery." },
+        { "title": "PostgreSQL Database Design", "desc": "A well-structured relational schema designed for efficient querying of multilingual event data." },
+        { "title": "Automated Content Pipeline", "desc": "Items added via the admin panel are automatically translated, keeping all three language versions in perfect sync." }
+      ],
+      "challenges": [
+        { "title": "Handling dynamic multi-language text safely", "solution": "Implemented strict character limits and responsive design fallbacks in React to ensure the UI doesn't break when translated into longer or shorter languages." },
+        { "title": "Streamlining the admin workflow", "solution": "Customized the Django admin classes to hide unnecessary complexity, giving the event managers a clean, intuitive data entry interface." }
+      ],
+      "outcome": "A high-performing, visually stunning platform that allows the event company to effortlessly manage their offerings and instantly reach international clients in their preferred language.",
+      "lessons": "Automating the translation pipeline at the database entry level saves countless hours of administrative work and eliminates the risk of missing translations on the frontend."
+    },
+    
+    "ArtGallery": {
+      "title": "ArtGallery",
+      "tagline": "Multilingual Marketplace Platform for Artists and Collectors",
+      "summary": "A full-stack Django marketplace where artists publish original work, collectors discover and negotiate, and a multilingual content pipeline reaches a global audience.",
+      "type": "Full-Stack Django Marketplace",
+      "role": "Lead Full-Stack Engineer — architecture, backend, database, frontend integration, and i18n pipeline.",
+      "problem": "Independent artists rarely have the channels — or the languages — to reach international collectors. ArtGallery is built to remove that friction with a single platform that handles listings, negotiation, identity, and translation as one cohesive workflow.",
+      "overview": "ArtGallery is a full-stack marketplace that connects artists and buyers across three languages. It pairs a Django-powered marketplace with a multi-role identity system, an offer & messaging engine, and an automated translation workflow that prepares every artwork for a global audience.",
+      "features": [
+        { "title": "Multi-Role User System", "desc": "Artist and buyer accounts share one identity layer but receive distinct dashboards, capabilities, and role-based permissions." },
+        { "title": "Seller Dashboard", "desc": "Artwork management, listing controls, profile presentation, and a live view of marketplace activity for the artist." },
+        { "title": "Buyer Experience", "desc": "Saved artworks, personal profile, offer tracking, and a unified history of every interaction with the catalogue." },
+        { "title": "Messaging & Communication", "desc": "Internal messaging, structured offer workflow, and a buyer-seller inbox built around real negotiation, not noise." },
+        { "title": "Marketplace Infrastructure", "desc": "Artwork listings, discovery surfaces, artist profiles, and offer management woven into a single navigable catalogue." },
+        { "title": "Internationalization", "desc": "Three-language support with dynamic language switching, designed from day one for a global collector audience." },
+        { "title": "Automated Translation Workflow", "desc": "Artwork content is automatically prepared for multiple languages, with translation automation wired directly into the content pipeline." },
+        { "title": "User Verification", "desc": "Phone verification, address management, and a hardened account-creation flow to keep the marketplace trustworthy." }
+      ],
+      "highlights": [
+        { "title": "Django Architecture", "desc": "Modular app structure separating identity, marketplace, messaging, and i18n concerns." },
+        { "title": "PostgreSQL Database Design", "desc": "Normalised schema for artworks, offers, conversations, and verified profiles." },
+        { "title": "Multi-Role Authentication", "desc": "Single auth surface, two role tracks (artist / buyer) with isolated permission sets." },
+        { "title": "Marketplace Workflows", "desc": "Listing → discovery → offer → negotiation → resolution, modelled end-to-end." },
+        { "title": "Internationalization Architecture", "desc": "Locale routing, content fallbacks, and language-aware templates across the platform." },
+        { "title": "Automated Translation Workflow", "desc": "Translation automation integrated into content management so new listings ship multilingual by default." },
+        { "title": "Permission Management", "desc": "Role-aware decorators and querysets ensure each user sees only what they should." },
+        { "title": "Dashboard Architecture", "desc": "Two distinct dashboards (seller / buyer) built on a shared design language and component system." }
+      ],
+      "challenges": [
+        { "title": "Modelling two user types without forking the platform", "solution": "A shared profile core with role extensions, plus permission-aware querysets that keep artist and buyer surfaces cleanly separated." },
+        { "title": "Keeping three languages in sync as content evolves", "solution": "An automated translation pipeline tied to the artwork lifecycle, so new content is translated and indexed without manual intervention." },
+        { "title": "Turning negotiation into a structured product", "solution": "An offer + messaging engine that records every step of buyer-seller communication as first-class data, not as a chat afterthought." }
+      ],
+      "outcome": "ArtGallery ships as a coherent marketplace platform rather than a gallery: artists onboard, list, negotiate, and sell, while collectors browse and engage in their own language. The result is a production-grade Django product demonstrating advanced full-stack capability.",
+      "lessons": "Designing for two user types from day one forces clarity in every layer — schema, permissions, dashboards, and UI. Treating translation as infrastructure (not a feature) keeps the product genuinely global as it grows."
+    },
+    "forex": {
+      "title": "Forex Pattern Finder",
+      "tagline": "Algorithmic Market Analysis for Harmonic Patterns",
+      "summary": "A Python tool that scans market data to detect harmonic patterns and price action setups, surfacing trade ideas with quantitative rigour.",
+      "type": "Quantitative Analysis Tool",
+      "role": "Engineer — algorithm design, data pipeline, and analytics interface.",
+      "problem": "Manual pattern recognition on forex charts is slow, subjective, and easy to bias. Traders need an objective scanner that surfaces structurally valid setups across many instruments at once.",
+      "overview": "The Forex Pattern Finder ingests historical and live market data, runs harmonic and price-action detectors over it, and presents a ranked list of setups with the geometry, ratios, and context behind each signal.",
+      "features": [
+        { "title": "Pattern Detection", "desc": "Harmonic and classic price action patterns identified across multiple timeframes." },
+        { "title": "Quantitative Scoring", "desc": "Each candidate setup ranked by ratio quality, structure, and context." },
+        { "title": "Multi-Timeframe Scan", "desc": "Concurrent analysis across timeframes with consistent geometry rules." },
+        { "title": "Analyst Dashboard", "desc": "Django interface to filter, inspect, and export detected setups." }
+      ],
+      "highlights": [
+        { "title": "Vectorised Detection", "desc": "Pandas + NumPy pipelines for high-throughput pattern scans." },
+        { "title": "Deterministic Geometry", "desc": "Strict ratio tolerances ensure reproducible, auditable signals." },
+        { "title": "Django Frontend", "desc": "Lightweight admin-style UI for inspecting and exporting results." }
+      ],
+      "challenges": [
+        { "title": "Detecting valid patterns without overfitting noise", "solution": "Strict ratio tolerances combined with structural pre-filters to drop unstable candidates before scoring." },
+        { "title": "Processing large historical datasets efficiently", "solution": "Vectorised Pandas operations and chunked scans to keep multi-symbol, multi-timeframe runs tractable." }
+      ],
+      "outcome": "An analytical tool that reliably surfaces structurally valid setups across many instruments, replacing hours of manual chart work with a single ranked scan.",
+      "lessons": "Quantitative tools live or die by data hygiene. Investing early in clean pipelines paid off across every downstream feature."
+    },
+    "server": {
+      "title": "Scalable Backend Infrastructure",
+      "tagline": "High-Availability Microservices Architecture",
+      "summary": "Research and implementation of resilient, distributed backend services for enterprise-level workloads, with a focus on Docker orchestration and distributed data.",
+      "type": "Systems Architecture",
+      "role": "Architect / Engineer — service design, orchestration, and database topology.",
+      "problem": "Enterprise applications need backends that stay available under load, deploy safely, and scale horizontally without rewrites. Achieving that takes deliberate architecture, not glue code.",
+      "overview": "A reference architecture and implementation track exploring microservice decomposition, container orchestration, and distributed database patterns suitable for production enterprise workloads.",
+      "features": [
+        { "title": "Service Decomposition", "desc": "Domain-driven service boundaries with clear contracts." },
+        { "title": "Container Orchestration", "desc": "Reproducible Docker-based deployments and scaling." },
+        { "title": "Distributed Data", "desc": "Patterns for replication, caching, and eventual consistency." },
+        { "title": "Resilience", "desc": "Health checks, retries, and graceful degradation built in." }
+      ],
+      "highlights": [
+        { "title": "Docker Orchestration", "desc": "Composable, reproducible service deployments across environments." },
+        { "title": "Distributed Databases", "desc": "PostgreSQL topologies with Redis-backed caching layers." },
+        { "title": "Observability", "desc": "Structured logging and health surfaces to support production operations." }
+      ],
+      "challenges": [
+        { "title": "Keeping services independently deployable", "solution": "Strict contracts and versioned APIs between services." },
+        { "title": "Coordinating data across services without coupling them", "solution": "Event-driven sync patterns with idempotent consumers." }
+      ],
+      "outcome": "An ongoing reference implementation that demonstrates how to compose resilient, scalable backends from independently deployable services.",
+      "lessons": "Reliability is an architectural property, not a layer you bolt on. The earlier it's designed in, the cheaper it stays."
+    }
+  },
+  "caseStudy": {
+    "backToPortfolio": "Back to portfolio",
+    "returnToPortfolio": "Return to portfolio",
+    "year": "Year",
+    "role": "Role",
+    "techStack": "Technology Stack",
+    "showcase": "Showcase",
+    "productInMotion": "Product in motion",
+    "cinematicPreview": "A cinematic preview",
+    "loadingPreview": "Loading preview",
+    "comingSoon": "Coming soon",
+    "walkthroughPlaceholder": "Full product walkthrough — artist onboarding, marketplace, and multilingual experience.",
+    "preview": "Preview",
+    "overview": "Overview",
+    "overviewTitle": "What it is. Why it exists.",
+    "theProblem": "The Problem",
+    "myRole": "My Role",
+    "keyFeatures": "Key Features",
+    "featuresTitle": "The systems and surfaces that make up the product.",
+    "techHighlights": "Technical Highlights",
+    "techTitle": "Engineering\nthe platform.",
+    "techDesc": "The architecture that makes {{title}} hold together at scale — from data model to deployment.",
+    "devChallenges": "Development Challenges",
+    "challengesTitle": "Obstacles, met with structure.",
+    "solution": "Solution",
+    "results": "Results",
+    "outcome": "Outcome",
+    "lessonsLearned": "Lessons learned",
+    "prevProject": "Previous project",
+    "nextProject": "Next project"
   }
 
 
